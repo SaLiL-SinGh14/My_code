@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My First Web Page</title>
+</head>
+<body>
+    <!--h1 is used for heading followed by h2 h3 etc-->
+    <h1><i>Hello World!</i></h1>
+    <font size="+0">I AM SALIL SINGH.</font> 
+    <!--'i' is used for itallic font-->
+    <!-- 'br' is used to break the line while -->
+    <!-- 'p' is used to insert a paragraph-->
+    <br>
+    
+    <!--how to insert image in the webpage,the following syntax is followed-->
+    <img src="389900dd859b26489093fb2df80cebf3.jpg" alt="ninja"><!--if the image is not displayed then the value assigned in alt will get displayed--> 
+    
+    
+    <!--how to insert table in html-->
+    <table border="6">
+        <!-- table is divivded into two catgerories 1. table head 'thead' 
+        2.table body 'tbdoy'-->
+        <thead><!--thead is used to add table header in the table-->
+            <tr>
+                <th>BRANCH</th><!--'th' is used to define the heading for the table column--><!--col.1-->
+                <th>STUDENTS</th><!--col. 2-->
+            </tr>
+        </thead>
+        <tbody><!--tbody is used for the rest of the contents of table -->
+        <tr><!--for rows 'tr' is used--><!--row1-->
+            <td>CSEDS-b</td><!--for columns 'td' is used--><!--column 1-->
+            <td>67</td><!--column 2-->
+        
+        </tr>
+        <tr><!--row 2-->
+            <td>CSEDS-c</td><!--column 1-->
+            <td>69</td><!--column 2-->
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- ADDING CAPTIONS-->
+    <!--ADDING CAPTIONS IN TABLES-->
+    <h4>this table has a caption, and a thick border:</h4>
+    <table border="6"><caption>My Caption</caption>
+    <tr>
+        <td>100</td>
+        <td>200</td>
+        <td>300</td>
+
+    </tr>
+    <tr>
+        <td>400</td>
+        <td>500</td>
+        <td>600</td>
+    </tr>
+    </table> 
+
+    <br>
+    
+    
+    
+    <!--for linking a new page we use 'anchor' tag ie'a'-->
+    <a href="file:///C:/Users/salil/Desktop/CODES/web%20dev/html%20personal%20site/contact%20me.html">Contact Me</a>
+    <!--for link see contact me file in web d folder-->
+    
+    
+    <!-- LIST- Html offers web authors three ways for specifying lists of information.All lists must contain 
+    one or more list elements. LIST MAY CONTAIN-
+    <ul>- An unordered list.This will list items using plain bullets.
+    <ol>- An ordered list. This will use different schemes of numbers to list your items.
+    <dl>- A definition list . This arranges your items in the same way as they are arranged in a dicitonary.-->
+    
+    <br>
+    <!-- ORDERED LIST-->
+    <h4>Numbered List</h4>
+    <ol><!-- default order of ordered list is 1,2,3....-->
+        <li>Apples</li>
+        <li>bananas</li>
+        <li>lemons</li>
+    </ol>
+    <h4>Letters List</h4>
+    <ol typle="A">
+        <li>apples</li>
+        <li>bananas</li>
+        <li>oranges</li>
+    </ol>
+    <h4>Lowercase letters List</h4>
+    <ol type="a">
+        <li>apples</li>
+        <li>bananas</li>
+        <li>oranges</li>
+    </ol>
+    <h4>Roman Number list</h4>
+    <ol type="I">
+        <li>apple</li>
+        <li>oranges</li>
+    </ol>
+    
+    <!--UNORDERED LIST-->
+
+
+    <!-- NESTED LIST-->
+    <h4>A NESTED LIST</h4>
+    <ul>
+        <li>Coffee</li>
+        <li>tea</li>
+            <ul type="square">
+                <li>black tea</li>
+                <li>green tea</li>
+                <ul>
+                    <li>china</li>
+                    <li>africa</li>
+                </ul>
+            </ul>
+        <li>Milk</li>    
+    </ul>
+
+    
+    <!--DEFINITION LIST-->
+    <!-- In definition list the elements are arranged in alphabetical order-->
+    <h4>A definition list</h4>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd><!--'dd' is used for description of the element for the following element-->
+        <dt>Milk</dt>
+        <dd>white cold drink</dd>
+    </dl>
+
+    <!--THE START ATTRIBUTE-->
+    <!-- WE CAN START THE BULLETS FROM ANYWHERE WE WANT TO BY USING 'START' BESIDE 'OL'-->
+    <h4>start attribute</h4>
+    <ol type="i" start="4">
+        <li>apple</li>
+        <li>oranges</li>
+        <li>banana</li>
+    </ol>
+</body>
+</html>
